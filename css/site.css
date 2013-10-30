@@ -14,6 +14,8 @@ p.article {
     color: black;}
 .sidebar {
     background-color: #558FE5;}
+.article {
+    background-color: #81D4FB;}
 
 
 /*             font           */
@@ -58,9 +60,8 @@ table.headerlinks {
     background-color: #558FE5;}
 .column2of3 {
     float: left;
-    width: 500px;
-    margin: 10px;
-    background-color: #81D4FB;}
+    width: 450px;
+    margin: 10px;}
 .column3of3 {
     float: left;
     width: 200px;
@@ -69,11 +70,13 @@ table.headerlinks {
 
 /*              links            */
 .footer {
-    }
+    float:inherit;
+    width: 450px;
+    margin: 30%;}
 
 table.navigation {
-    margin: 10px
-    font-size: 10px}
+    margin: 10px;
+    font-size: 10px;}
 a: link{
     color: grey;
     text-decoration: none;}
