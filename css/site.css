@@ -20,7 +20,7 @@ p.article {
 
 /*             font           */
 
-h1.header {
+h1 {
     font-family: 'Monsieur La Doulaise', cursive;
     font-size: 32px}
 h2 {
@@ -36,18 +36,14 @@ p {
 /*               text alignment          */
 
 h1 {
-        position: fixed;
-        left 200px;
+        left 100px;
         width: 75%}
 
 
-/*              header links             */
-
-.toplinks {
-    top: auto;}
 
 
-/*              body columns            */
+
+/*               body columns            */
 
 .column1of3 {
     float: left;
@@ -64,7 +60,7 @@ h1 {
     margin: 10px;}
 
 
-/*              links            */
+/*                   links               */
 .footer {
     float:inherit;
     width: 450px;
