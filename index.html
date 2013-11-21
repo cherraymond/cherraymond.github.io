@@ -4,6 +4,7 @@
     <head>
         <!--  DON'T FORGET TO  CHANGE THE HEAD  -->
         <title>Dramatically Fabulous</title>
+        <meta charset="UTF-8">
         <meta name="description"
               content="A website for Drama and Fashion Connoisseurs"/>
         <meta name="keywords"
@@ -14,20 +15,23 @@
               content="Cherese Raymond"/>
         <meta http-equiv="pragma"
               content="no-cache"/>
-        <link href="css/site.css" type="text/css"
-            rel="stylesheet"/>
+        <link rel="stylesheet" type="text/css" href="css/layout.css">
     </head>
         <!--  SHOULD BE CONSISTENT  -->
     <body>
             <!--  Header  -->
-        <div id="top">
-            <div id="DramaFab"><img src="images/DFlogo.jpg" width="15%" height="100px"/></div> <h1>Dramatically Fabulous</h1></div>
-            <a href="index.html"><img src="images/home.jpg" width= "16%" height="30px"/></a>
-            <a href="drama.html"><img src="images/drama.jpg" width= "16%" height="30px"/></a>
-            <a href="chic.html"><img src="images/Chic.jpg" width= "16%" height="30px"/></a>
-            <a href="social.html"><img src="images/Social.jpg" width= "16%" height="30px"/></a>
-            <a href="aboutme.html"><img src="images/Aboutme.jpg" width= "16%" height="30px"/></a>
-            <a href="events.html"><img src="images/Events.jpg" width= "16%" height="30px"/></a>
+        <header> 
+            <div id="top"><img src="images/DFlogo.jpg" width="80px" height="80px"/>Dramatically Fabulous</div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="drama.html">Drama</a></li>
+                    <li><a href="social.html">Social</a></li>
+                    <li><a href="aboutme.html">About Me</a></li>
+                    <li><a href="events.html">Events</a></li>
+                </ul>
+            </nav>
+        </header>
             <!--  End of Header  -->
         <!--  Recent Posts  -->
         <div class="column1of3">
@@ -37,15 +41,6 @@
         <div class="column2of3">
              <!-- THIS CHANGES FOR EVERY PAGE  -->
             <div class= "article">
-                <h2>LOGIN</h2>
-                <form action="http://www.idonothaveadomainyet.com/login.php">
-                <p>Username:
-                    <input type="text" name="username" size="15" maxlength="30"/>
-                </p>
-                <p>Password:
-                    <input type="password" name="password" size="15" maxlength="30"/>
-                </p>
-                </form>
             </div>
                 <iframe src="https://www.facebook.com/plugins/registration?
                      client_id=113869198637480&
@@ -55,10 +50,9 @@
                 frameborder="no"
                 style="border:none"
                 allowTransparency="true"
-                width="100%"
-                height="330">
+                width="300"
+                height="300">
                 </iframe>
-        
         </div>
         <div class="column3of3">
              <!--  End of: THIS CHANGES FOR EVERY PAGE  -->
@@ -82,7 +76,7 @@
                     <tr>
                         <td></td>
                         <td><a href="drama.html#Getthelook">Get the Look</a></td>
-                        <td><a href="chic.html#Get the look">Get the Look</a></td>
+                        <td><a href="chic.html#Getthelook">Get the Look</a></td>
                         <td><a href="social.html#Contact_Me">Contact Me</a></td>
                         <td><a href="aboutme.html#Contact_Me">Contact Me</a></td>
                         <td></td>

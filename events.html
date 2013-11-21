@@ -3,9 +3,10 @@
  
     <head>
         <!--  DON'T FORGET TO  CHANGE THE HEAD  -->
-        <title>Dramatically Fabulous-Upcoming Events</title>
+        <title>Dramatically Fabulous</title>
+        <meta charset="UTF-8">
         <meta name="description"
-              content="A website for Drama and Fashion Connoisseurs"/>
+              content="Shows and events to look forward to"/>
         <meta name="keywords"
               content="Drama, fashion, chic, opinion"/>
         <meta name="robots"
@@ -14,20 +15,23 @@
               content="Cherese Raymond"/>
         <meta http-equiv="pragma"
               content="no-cache"/>
-        <link href="css/site.css" type="text/css"
-            rel="stylesheet"/>
+        <link rel="stylesheet" type="text/css" href="css/layout.css">
     </head>
         <!--  SHOULD BE CONSISTENT  -->
     <body>
             <!--  Header  -->
-        <div id="top">
-            <div id="DramaFab"><img src="images/DFlogo.jpg" width="15%" height="100px"/></div> <h1>Dramatically Fabulous</h1></div>
-            <a href="index.html"><img src="images/home.jpg" width= "16%" height="30px"/></a>
-            <a href="drama.html"><img src="images/drama.jpg" width= "16%" height="30px"/></a>
-            <a href="chic.html"><img src="images/Chic.jpg" width= "16%" height="30px"/></a>
-            <a href="social.html"><img src="images/Social.jpg" width= "16%" height="30px"/></a>
-            <a href="aboutme.html"><img src="images/Aboutme.jpg" width= "16%" height="30px"/></a>
-            <a href="events.html"><img src="images/Events.jpg" width= "16%" height="30px"/></a>
+        <header> 
+            <div id="top"><img src="images/DFlogo.jpg" width="80px" height="80px"/>Dramatically Fabulous</div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="drama.html">Drama</a></li>
+                    <li><a href="social.html">Social</a></li>
+                    <li><a href="aboutme.html">About Me</a></li>
+                    <li><a href="events.html">Events</a></li>
+                </ul>
+            </nav>
+        </header>
             <!--  End of Header  -->
     <!--  Recent Posts  -->
         <div class="column1of3">
@@ -36,20 +40,146 @@
     </div>
     <div class="column2of3">
          <!-- THIS CHANGES FOR EVERY PAGE  -->
-        <h2> Upcoming Events</h2>
-        <p class="article"> Calendar goes here, I just do not know how to do that yet.</p>
+        <h1> Upcoming Events</h1>
+        <table class="calendar">
+            <thead>
+                        <!--- THIS IS THE CURRENT MONTH --->
+                <tr>
+                   <th colspan="7">November</th>
+                </tr>
+                <tr>
+                    <th scope="col">Sunday</th>
+                    <th scope="col">Monday</th>
+                    <th scope="col">Tuesday</th>
+                    <th scope="col">Wednesday</th>
+                    <th scope="col">Thursday</th>
+                    <th scope="col">Friday</th>
+                    <th scope="col">Saturday</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><h2></h2><p class="article"></p></td>
+                    <td><h2></h2><p class="article"></p></td>
+                    <td><h2></h2><p class="article"></p></td>
+                    <td><h2></h2><p class="article"></p></td>
+                    <td><h2></h2><p class="article"></p></td>
+                    <td><h2></h2>1<p class="article"></p></td>
+                    <td><h2></h2>2<p class="article"></p></td>
+                </tr>
+                <tr>
+                    <td><h2></h2>3<p class="article"></p></td>
+                    <td><h2></h2>4<p class="article"></p></td>
+                    <td><h2></h2>5<p class="article"></p></td>
+                    <td><h2></h2>6<p class="article"></p></td>
+                    <td><h2></h2>7<p class="article"></p></td>
+                    <td><h2></h2>8<p class="article"></p></td>
+                    <td><h2></h2>9<p class="article"></p></td>
+                </tr>
+                <tr>
+                    <td><h2></h2>10<p class="article"></p></td>
+                    <td><h2></h2>11<p class="article"></p></td>
+                    <td><h2></h2>12<p class="article"></p></td>
+                    <td><h2></h2>13<p class="article"></p></td>
+                    <td><h2></h2>14<p class="article"></p></td>
+                    <td><h2></h2>15<p class="article"></p></td>
+                    <td><h2></h2>16<p class="article"></p></td>
+                </tr>
+                <tr>
+                    <td><h2></h2>17<p class="article"></p></td>
+                    <td><h2></h2>18<p class="article"></p></td>
+                    <td><h2></h2>19<p class="article"></p></td>
+                    <td><h2></h2>20<p class="article"></p></td>
+                    <td><h2></h2>21<p class="article">Scadal on ABC @ 10:00</p></td>
+                    <td><h2></h2>22<p class="article"></p></td>
+                    <td><h2></h2>23<p class="article"></p></td>
+                </tr>
+                <tr>
+                    <td><h2></h2>24<p class="article">American Music Awards @ 9:00</p></td>
+                    <td><h2></h2>25<p class="article"></p></td>
+                    <td><h2></h2>26<p class="article"></p></td>
+                    <td><h2></h2>27<p class="article"> A.H.S. Coven on FX @ 10:00</p></td>
+                    <td><h2></h2>28<p class="article"></p></td>
+                    <td><h2></h2>29<p class="article"></p></td>
+                    <td><h2></h2>30<p class="article"></p></td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="calendar">
+            <thead>
+                        <!--- THIS IS THE NEXT MONTH --->
+                <tr>
+                   <th colspan="7">December</th>
+                </tr>
+                <tr>
+                    <th scope="col">Sunday</th>
+                    <th scope="col">Monday</th>
+                    <th scope="col">Tuesday</th>
+                    <th scope="col">Wednesday</th>
+                    <th scope="col">Thursday</th>
+                    <th scope="col">Friday</th>
+                    <th scope="col">Saturday</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><h2></h2>1<p class="article"></p></td>
+                    <td><h2></h2>2<p class="article"></p></td>
+                    <td><h2></h2>3<p class="article"></p></td>
+                    <td><h2></h2>4<p class="article"></p></td>
+                    <td><h2></h2>5<p class="article"></p></td>
+                    <td><h2></h2>6<p class="article"></p></td>
+                    <td><h2></h2>7<p class="article"></p></td>
+                </tr>
+                <tr>
+                    <td><h2></h2>8<p class="article"></p></td>
+                    <td><h2></h2>9<p class="article"></p></td>
+                    <td><h2></h2>10<p class="article"></p></td>
+                    <td><h2></h2>11<p class="article"></p></td>
+                    <td><h2></h2>12<p class="article"></p></td>
+                    <td><h2></h2>13<p class="article"></p></td>
+                    <td><h2></h2>14<p class="article"></p></td>
+                </tr>
+                <tr>
+                    <td><h2></h2>15<p class="article"></p></td>
+                    <td><h2></h2>16<p class="article"></p></td>
+                    <td><h2></h2>17<p class="article"></p></td>
+                    <td><h2></h2>18<p class="article"></p></td>
+                    <td><h2></h2>19<p class="article"></p></td>
+                    <td><h2></h2>20<p class="article"></p></td>
+                    <td><h2></h2>21<p class="article"></p></td>
+                </tr>
+                <tr>
+                    <td><h2></h2>22<p class="article"></p></td>
+                    <td><h2></h2>23<p class="article"></p></td>
+                    <td><h2></h2>24<p class="article"></p></td>
+                    <td><h2></h2>25<p class="article"></p></td>
+                    <td><h2></h2>26<p class="article"></p></td>
+                    <td><h2></h2>27<p class="article"></p></td>
+                    <td><h2></h2>28<p class="article"></p></td>
+                </tr>
+                <tr>
+                    <td><h2></h2>29<p class="article"></p></td>
+                    <td><h2></h2>30<p class="article"></p></td>
+                    <td><h2></h2>31<p class="article"></p></td>
+                    <td><h2></h2><p class="article"></p></td>
+                    <td><h2></h2><p class="article"></p></td>
+                    <td><h2></h2><p class="article"></p></td>
+                    <td><h2></h2><p class="article"></p></td>
+                </tr>
+            </tbody>
+        </table>
     </div>
+             <!--  End of: THIS CHANGES FOR EVERY PAGE  -->
     <div class="column3of3">
-         <!--  End of: THIS CHANGES FOR EVERY PAGE  -->
         <div class="sidebar">
             <h3>Recent Comments</h3>
-            <p class="sidebar">Recent comments will show here,but should not be real-time, because that is distracting. Maybe I will use a refresh button or something. I have not decided yet. Or maybe a 10 minute auto-update.</p>
-        </div>
+            <p class="sidebar">Recent comments will show here,but should not be real-time, because that is distracting. Maybe I will use a refresh button or something. I have not decided yet. Or maybe a 10 minute auto-update.</p></div>
             <a href="#top"><img src="images/Anchortopofpage.gif" width="100" height="75"></a>
     </div>
         <!--  Should be consistent  -->
         <div class="footer">  
-            <table class=navigation>
+            <table class="navigation">
                 <tr>
                     <th scope="col"><a href="index.html">Home</a></th>
                     <th scope="col"><a href="drama.html">Drama</a></th>
@@ -61,7 +191,7 @@
                 <tr>
                     <td></td>
                     <td><a href="drama.html#Getthelook">Get the Look</a></td>
-                    <td><a href="chic.html#Get the look">Get the Look</a></td>
+                    <td><a href="chic.html#Getthelook">Get the Look</a></td>
                     <td><a href="social.html#Contact_Me">Contact Me</a></td>
                     <td><a href="aboutme.html#Contact_Me">Contact Me</a></td>
                     <td></td>

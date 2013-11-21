@@ -3,9 +3,10 @@
  
     <head>
         <!--  DON'T FORGET TO  CHANGE THE HEAD  -->
-        <title>Dramatically Fabulous-Drama</title>
+        <title>Dramatically Fabulous</title>
+        <meta charset="UTF-8">
         <meta name="description"
-              content="A website for Drama and Fashion Connoisseurs"/>
+              content="What everyone should watch"/>
         <meta name="keywords"
               content="Drama, fashion, chic, opinion"/>
         <meta name="robots"
@@ -14,20 +15,23 @@
               content="Cherese Raymond"/>
         <meta http-equiv="pragma"
               content="no-cache"/>
-        <link href="css/site.css" type="text/css"
-            rel="stylesheet"/>
+        <link rel="stylesheet" type="text/css" href="css/layout.css">
     </head>
         <!--  SHOULD BE CONSISTENT  -->
     <body>
             <!--  Header  -->
-        <div id="top">
-            <div id="DramaFab"><img src="images/DFlogo.jpg" width="15%" height="100px"/></div> <h1>Dramatically Fabulous</h1></div>
-            <a href="index.html"><img src="images/home.jpg" width= "16%" height="30px"/></a>
-            <a href="drama.html"><img src="images/drama.jpg" width= "16%" height="30px"/></a>
-            <a href="chic.html"><img src="images/Chic.jpg" width= "16%" height="30px"/></a>
-            <a href="social.html"><img src="images/Social.jpg" width= "16%" height="30px"/></a>
-            <a href="aboutme.html"><img src="images/Aboutme.jpg" width= "16%" height="30px"/></a>
-            <a href="events.html"><img src="images/Events.jpg" width= "16%" height="30px"/></a>
+        <header> 
+            <div id="top"><img src="images/DFlogo.jpg" width="80px" height="80px"/>Dramatically Fabulous</div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="drama.html">Drama</a></li>
+                    <li><a href="social.html">Social</a></li>
+                    <li><a href="aboutme.html">About Me</a></li>
+                    <li><a href="events.html">Events</a></li>
+                </ul>
+            </nav>
+        </header>
             <!--  End of Header  -->
     <!--  Recent Posts  -->
         <div class="column1of3">
@@ -36,13 +40,13 @@
     </div>
     <div class="column2of3">
          <!-- THIS CHANGES FOR EVERY PAGE  -->
-        <h2> Current Top Shows</h2>
+        <h1> Current Top Shows</h1>
         <p class="article"> Drama Article goes here</p>
         <form action="http://www.idonothaveadomainyet.com/comments.php">
             <p>What do you think about these shows?</p>
                 <textarea name="comments" cols"20" rows="4">Enter comments here </textarea>
         </form>
-        <h2 id="Get_the_look"></h2>
+        <h1 id="Get_the_look"></h1>
         <p class="article"> Get the look Article </p>
         <form action="http://www.idonothaveadomainyet.com/comments.php">
             <p>Do you like this look?</p>
@@ -71,7 +75,7 @@
                 <tr>
                     <td></td>
                     <td><a href="drama.html#Getthelook">Get the Look</a></td>
-                    <td><a href="chic.html#Get the look">Get the Look</a></td>
+                    <td><a href="chic.html#Getthelook">Get the Look</a></td>
                     <td><a href="social.html#Contact_Me">Contact Me</a></td>
                     <td><a href="aboutme.html#Contact_Me">Contact Me</a></td>
                     <td></td>
