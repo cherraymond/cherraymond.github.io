@@ -25,7 +25,11 @@ p.aside {
     color: white;}
 p.article {
     color: black;}
+.aside {
+    background-color: #558FE5;}
 .article {
+    background-color: #81D4FB;}
+td>p {
     background-color: #81D4FB;}
 
 
@@ -54,14 +58,15 @@ p {
     background-color: #558FE5;}
 .column2of3 {
     float: left;
-    width: 450px;
+    width: 500px;
     margin: 10px;}
 .column3of3 {
     float: left;
     width: 200px;
     margin: 10px;}
-.aside {
-    background-color: #558FE5;}
+.article{
+    position: inherit;}
+
 
 /*                   links               */
     
@@ -98,7 +103,7 @@ a: hover{
     text-decoration: underline;}
 a: active{
     color: darkcyan;}
-
+ 
 
 @media screen and (max-width: 600px) {
     
