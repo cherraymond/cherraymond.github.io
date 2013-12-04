@@ -1,51 +1,77 @@
 /*               Title         */
 
 #top {
-        Vertical-align: middle;
+        vertical-align:center;
+        width: 90%;
+        margin-left: 5%;
         font-family: 'Monsieur La Doulaise', cursive;
-        font-size: 70px}
-
-
+        font-size: 60px;
+        display: center;
+}
 
 
 
 /*              color          */
 
 body {
-    background-color: #FFC7F9;}
+    background-color: #FFC7F9;
+}
 #top {
-    color: #558FE5;}
+    color: #558FE5;
+}
 h1 {
-    color: black;}
+    color: black;
+}
+h1.welcome {
+    background-color: #FFC7F9;
+}
 h2 {
-    color: black;}
+    color: black;
+}
 h3 {
-    color: white;}
+    color: white;
+}
 p.aside {
-    color: white;}
+    color: white;
+}
 p.article {
-    color: black;}
+    color: black;
+}
+p>a {
+    color: #000;
+    text-decoration:none;
+}
 .aside {
-    background-color: #558FE5;}
+    background-color: #558FE5;
+}
 .article {
-    background-color: #81D4FB;}
+    background-color: #81D4FB;
+}
 td>p {
-    background-color: #81D4FB;}
+    background-color: #81D4FB;
+}
 
 
 /*             font           */
 
 h1 {
     font-family: 'Monsieur La Doulaise', cursive;
-    font-size: 18px}
+    font-size: 18px
+}
 h2 {
     font-family: 'Monsieur La Doulaise', cursive;
-    font-size: 14px}
+    font-size: 14px
+}
 h3 {
     font-family: Georgia, Times, serif;         
-    font-size: 14px}
+    font-size: 14px
+}
 p {
-    font-size: 12px;}
+    font-size: 12px;
+}
+p.comingsoon {
+    font-size: 12px;
+}
 
 
 
@@ -55,57 +81,97 @@ p {
     float: left;
     width: 200px;
     margin: 10px;
-    background-color: #558FE5;}
+    background-color: #558FE5;
+    visibility: hidden;
+}
 .column2of3 {
     float: left;
-    width: 500px;
-    margin: 10px;}
+    width: 520px;
+    margin: 10px;
+}
+.img.align-center {
+    display: block;
+    margin: 10px;
+}
+.img.small {
+    width: 100px;
+    height: 100px;
+}
 .column3of3 {
     float: left;
     width: 200px;
-    margin: 10px;}
+    margin: 10px;
+    visibility: hidden;
+}
 .article{
-    position: inherit;}
+    position: relative;
+}
 
 
 /*                   links               */
     
-    nav{
-        border: 0;
-        width: 100%;
-    }
     
     nav ul {
-        list-style-type: none;
-        padding-left: 0;
+        width: 700px;
+        padding: 15px;
+        margin: 0px auto 0px auto;
         text-align: center;
     }
-    
     nav li{
         display: inline;
-        margin-right: 10px;
+        margin: 0px 5px;
     }
+    
+    li>a {
+        background-color: #000;
+        color: white;
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 5px 20px 5px 20px;
+        border: 2px solid grey;
+        border-style: outset;
+        border-color: #000;
+    }
+}
 .footer {
     float:inherit;
     width: 450px;
-    margin: 30%;}
-
+    margin: 30%;
+}
 table.navigation {
     margin: 10px;
-    font-size: 10px;}
+    font-size: 10px;
+}
+#submit {
+    display: none;
+}
+p.comingsoon {
+    visibility: hidden;
+}
 a: link{
     color: grey;
-    text-decoration: none;}
+    text-decoration: none;
+}
 a: visited {
-    color: black;}
+    color: black;
+}
 a: hover{
     color: silver;
-    text-decoration: underline;}
+    text-decoration: underline;
+}
 a: active{
-    color: darkcyan;}
+    color: darkcyan;
+}
  
 
 @media screen and (max-width: 600px) {
+    
+    #top {
+        vertical-align:center;
+        width: 90%;
+        margin-left: 5%;
+        font-family: 'Monsieur La Doulaise', cursive;
+        font-size: 30px;}
     
     body{
         padding: 3%;
@@ -117,7 +183,9 @@ a: active{
     }
     
     nav ul {
+        width: 500px;
         list-style-type: none;
+        margin: 0px auto 0px auto;
         padding-left: 0;
         text-align: center;
     }
@@ -127,9 +195,31 @@ a: active{
         margin-right: 10px;
     }
     
+    li>a {
+        background-color: #000;
+        color: white;
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 2px;
+        border: 0px solid grey;
+        border-style: outset;
+        border-color: #000;
+    }
     .floaters {
         clear: left;
         margin-left: 0;
         width: 100%;
+    }
+    .column1of3 {
+        display: none;
+    }
+    table.navigation {
+        display: none;
+    }
+    .column3of3>.aside {
+        
+    }
+    .column3of3>a {
+        visibility: visible
     }
 }
